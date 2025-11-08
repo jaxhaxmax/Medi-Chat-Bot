@@ -1,5 +1,6 @@
 🧠 Medi-Chat-Bot
 An AI-Powered Medical Assistant built with LangChain, HuggingFace, and Groq
+
 🚀 Overview
 
 Medi-Chat-Bot is an intelligent medical chatbot that helps users with general health-related queries through a conversational interface.
@@ -15,6 +16,7 @@ A Streamlit frontend delivers a clean, interactive user experience.
 📚 Local Knowledge Base Support — Can integrate PDFs, articles, or datasets for domain-specific expertise.
 🧩 Modular Architecture — Independent layers for embeddings, retrieval, and generation ensure clean extensibility.
 
+
 🏗️ Tech Stack
 Layer	Technology
 Frontend	Streamlit
@@ -23,6 +25,8 @@ AI / ML	LangChain, HuggingFace, Groq
 Vector Store	FAISS
 Embeddings	HuggingFace Sentence Transformers
 Deployment	Localhost / Streamlit Cloud
+
+
 🧩 How It Works
 
 1️⃣ User Input
