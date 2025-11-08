@@ -23,3 +23,18 @@ AI/ML	LangChain, HuggingFace, Groq
 Vector Store	FAISS
 Embeddings	HuggingFace Sentence Transformers
 Deployment	Localhost / Streamlit Cloud
+
+
+🧩 How It Works
+
+User Input
+The user enters a medical question (e.g., “What are the symptoms of diabetes?”).
+
+Embedding + Retrieval
+The chatbot converts the question into embeddings using HuggingFaceEmbeddings and retrieves relevant medical context via FAISS.
+
+Response Generation
+The relevant context and user query are passed to the Groq-powered LLM (through LangChain) to generate an accurate, context-rich answer.
+
+Display
+Streamlit displays the AI’s response instantly in a friendly chat interface.
